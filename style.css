@@ -82,7 +82,8 @@
   width: 100vw;
   /* bottom section, add code below */
   display: flex;
-  display: 
+  flex-direction: column;
+  align-items: center;
 
 }
 
@@ -101,14 +102,20 @@ on the children, the rest are properties you have used in past challenges
 .challenge-6 {
   width: 100vw;
   height: 320px;
-    /* add code below */
+  display: flex;
+  flex-direction: column;
+  
+
 
 }
 
 .c-6-child-1 {
   background-color: lightgrey;
   /* add code below */
-
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-start;
 
 }
 
@@ -116,6 +123,10 @@ on the children, the rest are properties you have used in past challenges
   background-color: darkgrey;
 
   /* add code below */
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 
